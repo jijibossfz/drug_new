@@ -1,0 +1,35 @@
+MODEL 1
+REMARK VINA RESULT:     154.8      0.000      0.000
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  N1_6 
+REMARK    2  A    between atoms: O2_2  and  C8_16 
+REMARK    3  A    between atoms: N1_6  and  C3_11 
+REMARK    4  A    between atoms: N1_6  and  C2_10 
+REMARK    5  A    between atoms: N2_7  and  C3_11 
+REMARK    6  A    between atoms: N2_7  and  C4_12 
+REMARK    7  A    between atoms: N3_8  and  C8_16 
+REMARK    8  A    between atoms: C1_9  and  C3_11 
+REMARK    9  A    between atoms: C5_13  and  C6_14 
+REMARK   10  A    between atoms: C6_14  and  C7_15 
+REMARK   11  A    between atoms: C7_15  and  C8_16 
+ROOT
+HETATM    1  O1  UNL     1     -36.215  12.245  50.474  1.00  0.00     0.000 OA
+HETATM    2  O2  UNL     1     -39.614  14.226  50.285  1.00  0.00     0.000 OA
+HETATM    3  O3  UNL     1     -37.684  12.241  50.527  1.00  0.00    -0.296 OA
+HETATM    4  O4  UNL     1     -41.112  15.836  50.086  1.00  0.00    -0.103 OA
+HETATM    5  O5  UNL     1     -41.323  14.441  50.312  1.00  0.00    -0.103 OA
+HETATM    6  N1  UNL     1     -36.831  13.419  50.312  1.00  0.00     0.000 N 
+HETATM    7  N2  UNL     1     -37.418  13.993  50.243  1.00  0.00     0.000 N 
+HETATM    8  N3  UNL     1     -40.810  15.076  50.195  1.00  0.00     0.258 N 
+HETATM    9  C1  UNL     1     -36.017  13.548  50.263  1.00  0.00     0.072 A 
+HETATM   10  C2  UNL     1     -35.637  12.823  50.363  1.00  0.00     0.072 A 
+HETATM   11  C3  UNL     1     -36.953  12.613  50.443  1.00  0.00     0.151 A 
+HETATM   12  C4  UNL     1     -38.800  14.355  50.236  1.00  0.00     0.121 A 
+HETATM   13  C5  UNL     1     -38.212  13.780  50.305  1.00  0.00     0.018 A 
+HETATM   14  C6  UNL     1     -38.679  15.160  50.105  1.00  0.00     0.121 A 
+HETATM   15  C7  UNL     1     -39.994  14.951  50.185  1.00  0.00     0.377 A 
+HETATM   16  C8  UNL     1     -39.416  15.528  50.074  1.00  0.00     0.311 A 
+ENDROOT
+TORSDOF 11
+ENDMDL

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C6_8 
+REMARK    2  A    between atoms: C6_8  and  N2_10 
+REMARK    3  A    between atoms: N2_10  and  S2_11 
+REMARK    4  A    between atoms: S2_11  and  C8_14 
+ROOT
+ATOM      1  N2  <0> d          -0.978  -0.991  -3.359  0.00  0.00    -0.306 N 
+ATOM      2  H11 <0> d          -1.109  -1.933  -3.168  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  <0> d          -0.008  -0.215  -2.583  0.00  0.00     0.131 C 
+ATOM      4  C7  <0> d           1.384  -0.381  -3.194  0.00  0.00     0.038 C 
+BRANCH   3   5
+ATOM      5  C3  <0> d           0.006  -0.708  -1.159  0.00  0.00     0.032 A 
+ATOM      6  C2  <0> d           0.002  -0.004   0.002  0.00  0.00     0.046 A 
+ATOM      7  C1  <0> d          -0.018   1.503   0.010  0.00  0.00     0.071 C 
+ATOM      8  N1  <0> d           0.023  -0.699   1.122  0.00  0.00    -0.250 NA
+ATOM      9  C4  <0> d           0.036  -2.009   1.111  0.00  0.00     0.072 A 
+ATOM     10  S1  <0> d           0.032  -2.379  -0.531  0.00  0.00    -0.075 SA
+ATOM     11  C5  <0> d           0.055  -2.955   2.284  0.00  0.00     0.078 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  S2  <0> d          -1.851  -0.261  -4.562  0.00  0.00     0.262 S 
+ATOM     13  O1  <0> d          -2.673  -1.268  -5.136  0.00  0.00    -0.200 OA
+ATOM     14  O2  <0> d          -2.386   0.933  -4.008  0.00  0.00    -0.200 OA
+BRANCH  12  15
+ATOM     15  C8  <0> d          -0.709   0.230  -5.810  0.00  0.00     0.114 A 
+ATOM     16  C11 <0> d          -0.386  -0.624  -6.852  0.00  0.00     0.146 A 
+ATOM     17  N4  <0> d           0.471  -0.219  -7.775  0.00  0.00    -0.229 NA
+ATOM     18  C10 <0> d           1.025   0.976  -7.705  0.00  0.00     0.222 A 
+ATOM     19  N3  <0> d           0.745   1.813  -6.725  0.00  0.00    -0.229 NA
+ATOM     20 Cl1  <0> d           2.150   1.461  -8.935  0.00  0.00    -0.041 Cl
+ATOM     21  C9  <0> d          -0.108   1.478  -5.770  0.00  0.00     0.146 A 
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 4

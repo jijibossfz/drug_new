@@ -1,0 +1,42 @@
+MODEL 1
+REMARK VINA RESULT:      18.5      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_4  and  N1_5 
+REMARK    2  A    between atoms: N1_5  and  C3_8 
+REMARK    3  A    between atoms: C1_6  and  C4_9 
+REMARK    4  A    between atoms: C2_7  and  C3_8 
+ROOT
+HETATM    1  O1  UNL     1     -41.325  15.809  49.036  1.00  0.00    -0.261 OA
+HETATM    2  O2  UNL     1     -38.055  15.686  50.526  1.00  0.00    -0.314 OA
+HETATM    3  O3  UNL     1     -41.028  15.726  50.430  1.00  0.00    -0.261 OA
+HETATM    4  O4  UNL     1     -38.353  15.769  49.131  1.00  0.00     0.000 OA
+HETATM    5  N1  UNL     1     -39.712  15.810  48.691  1.00  0.00     0.271 N 
+HETATM    6  C1  UNL     1     -39.967  15.768  49.475  1.00  0.00     0.422 A 
+HETATM    7  C2  UNL     1     -39.414  15.727  50.086  1.00  0.00     0.421 A 
+HETATM    8  C3  UNL     1     -40.773  15.768  49.647  1.00  0.00     0.457 A 
+HETATM    9  C4  UNL     1     -38.608  15.727  49.915  1.00  0.00     0.265 A 
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      21.1      0.736      2.551
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_4  and  N1_5 
+REMARK    2  A    between atoms: N1_5  and  C3_8 
+REMARK    3  A    between atoms: C1_6  and  C4_9 
+REMARK    4  A    between atoms: C2_7  and  C3_8 
+ROOT
+HETATM    1  O1  UNL     1     -38.314  15.564  50.444  1.00  0.00    -0.261 OA
+HETATM    2  O2  UNL     1     -41.321  15.794  48.486  1.00  0.00    -0.314 OA
+HETATM    3  O3  UNL     1     -38.399  15.837  49.044  1.00  0.00    -0.261 OA
+HETATM    4  O4  UNL     1     -41.234  15.521  49.886  1.00  0.00     0.000 OA
+HETATM    5  N1  UNL     1     -39.957  15.461  50.525  1.00  0.00     0.271 N 
+HETATM    6  C1  UNL     1     -39.589  15.624  49.805  1.00  0.00     0.422 A 
+HETATM    7  C2  UNL     1     -40.044  15.734  49.125  1.00  0.00     0.421 A 
+HETATM    8  C3  UNL     1     -38.768  15.675  49.765  1.00  0.00     0.457 A 
+HETATM    9  C4  UNL     1     -40.866  15.683  49.166  1.00  0.00     0.265 A 
+ENDROOT
+TORSDOF 4
+ENDMDL

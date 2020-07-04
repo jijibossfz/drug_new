@@ -1,0 +1,22 @@
+COMPND    Structure #1
+HETATM    1  C1  UNL     1       2.143   1.238   0.000  1.00  0.00           C  
+HETATM    2  C2  UNL     1      -0.715   1.238   0.000  1.00  0.00           C  
+HETATM    3  C3  UNL     1       1.429   0.825   0.000  1.00  0.00           C  
+HETATM    4  C4  UNL     1       0.000   0.825   0.000  1.00  0.00           C  
+HETATM    5  C5  UNL     1       2.143   2.062   0.000  1.00  0.00           C  
+HETATM    6  C6  UNL     1      -0.715   2.062   0.000  1.00  0.00           C  
+HETATM    7  C7  UNL     1       0.715   1.238   0.000  1.00  0.00           C  
+HETATM    8  C8  UNL     1       1.429   2.475   0.000  1.00  0.00           C  
+HETATM    9  C9  UNL     1       0.715   2.062   0.000  1.00  0.00           C  
+HETATM   10  N1  UNL     1       0.000   2.475   0.000  1.00  0.00           N  
+HETATM   11  O1  UNL     1       1.429   3.300   0.000  1.00  0.00           O  
+CONECT    1    3    3    5
+CONECT    2    4    6    6
+CONECT    3    7
+CONECT    4    7    7
+CONECT    5    8    8
+CONECT    6   10
+CONECT    7    9
+CONECT    8    9   11
+CONECT    9   10   10
+END

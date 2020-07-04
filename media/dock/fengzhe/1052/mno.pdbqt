@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  C20_20 
+REMARK    3  A    between atoms: C10_10  and  C13_13 
+REMARK    4  A    between atoms: C20_20  and  O22_22 
+ROOT
+ATOM      1  C2  BEN d ZYL       8.924   1.834   6.148  0.00  0.00     0.035 A 
+ATOM      2  C3  BEN d ZYL       9.732   2.819   6.724  0.00  0.00     0.037 A 
+ATOM      3  C4  BEN d ZYL       9.429   3.369   7.977  0.00  0.00     0.060 A 
+ATOM      4  C5  BEN d ZYL       8.285   2.920   8.652  0.00  0.00     0.053 A 
+ATOM      5  C6  BEN d ZYL       7.499   1.906   8.098  0.00  0.00     0.068 A 
+ATOM      6  C7  BEN d ZYL       7.832   1.340   6.866  0.00  0.00     0.130 A 
+ATOM      7  F18 BEN d ZYL       7.114   0.324   6.399  0.00  0.00    -0.205 F 
+ATOM      8 Cl19 BEN d ZYL       7.795   3.595  10.195  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   1   9
+ATOM      9  C1  BEN d ZYL       9.263   1.326   4.764  0.00  0.00     0.110 A 
+ATOM     10  N8  BEN d ZYL      10.444   1.211   4.319  0.00  0.00    -0.170 NA
+ATOM     11  N9  BEN d ZYL      10.430   0.720   3.060  0.00  0.00    -0.268 N 
+ATOM     12  C10 BEN d ZYL       9.197   0.521   2.673  0.00  0.00     0.155 A 
+ATOM     13  C12 BEN d ZYL      11.631   0.430   2.290  0.00  0.00     0.180 C 
+ATOM     14  C11 BEN d ZYL       8.387   0.884   3.673  0.00  0.00     0.075 A 
+ATOM     15 Br17 BEN d ZYL       6.495   0.853   3.674  0.00  0.00    -0.046 Br
+BRANCH  12  16
+ATOM     16  C13 BEN d ZYL       8.807  -0.021   1.320  0.00  0.00     0.435 C 
+ATOM     17  F14 BEN d ZYL       7.491   0.191   1.055  0.00  0.00    -0.165 F 
+ATOM     18  F15 BEN d ZYL       9.543   0.583   0.350  0.00  0.00    -0.165 F 
+ATOM     19  F16 BEN d ZYL       9.051  -1.359   1.301  0.00  0.00    -0.165 F 
+ENDBRANCH  12  16
+ENDBRANCH   1   9
+BRANCH   3  20
+ATOM     20  C20 BEN d ZYL      10.348   4.429   8.553  0.00  0.00     0.177 C 
+ATOM     21  O21 BEN d ZYL      11.310   4.804   7.899  0.00  0.00    -0.646 OA
+BRANCH  20  22
+ATOM     22  O22 BEN d ZYL      10.116   4.951   9.763  0.00  0.00    -0.773 OA
+ATOM     23  H6  BEN d ZYL      10.751   5.607  10.030  0.00  0.00     0.167 HD
+ENDBRANCH  20  22
+ENDBRANCH   3  20
+TORSDOF 4

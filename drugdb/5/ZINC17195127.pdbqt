@@ -1,0 +1,72 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C9_13 
+REMARK       I    between atoms: C9_13  and  N3_15 
+REMARK    2  A    between atoms: N3_15  and  N4_16 
+REMARK       I    between atoms: N4_16  and  C10_17 
+REMARK    3  A    between atoms: C10_17  and  C11_19 
+REMARK    4  A    between atoms: C11_19  and  C12_20 
+REMARK    5  A    between atoms: C12_20  and  C13_21 
+REMARK    6  A    between atoms: C13_21  and  C14_22 
+REMARK    7  A    between atoms: C14_22  and  C15_23 
+REMARK    8  A    between atoms: C15_23  and  N5_24 
+REMARK    9  A    between atoms: N5_24  and  C16_25 
+ROOT
+ATOM      1  N4  <0> d          -6.169   3.320   0.075  0.00  0.00    -0.267 N 
+ATOM      2  C10 <0> d          -7.304   4.046   0.089  0.00  0.00     0.236 C 
+ATOM      3  O3  <0> d          -7.249   5.258   0.094  0.00  0.00    -0.272 OA
+ATOM      4  H7  <0> d          -6.214   2.350   0.070  0.00  0.00     0.190 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C11 <0> d          -8.643   3.353   0.097  0.00  0.00     0.104 C 
+BRANCH   5   6
+ATOM      6  C12 <0> d          -9.759   4.399   0.112  0.00  0.00     0.009 C 
+BRANCH   6   7
+ATOM      7  C13 <0> d         -11.117   3.696   0.121  0.00  0.00     0.002 C 
+BRANCH   7   8
+ATOM      8  C14 <0> d         -12.233   4.742   0.136  0.00  0.00     0.020 C 
+BRANCH   8   9
+ATOM      9  C15 <0> d         -13.592   4.039   0.145  0.00  0.00     0.121 C 
+BRANCH   9  10
+ATOM     10  N5  <0> d         -14.661   5.041   0.159  0.00  0.00    -0.373 N 
+ATOM     11  H18 <0> d         -14.440   5.985   0.162  0.00  0.00     0.161 HD
+BRANCH  10  12
+ATOM     12  C16 <0> d         -15.979   4.641   0.169  0.00  0.00     0.148 A 
+ATOM     13  C18 <0> d         -17.059   5.641   0.190  0.00  0.00     0.034 A 
+ATOM     14  C17 <0> d         -18.329   5.046   0.192  0.00  0.00     0.095 A 
+ATOM     15  C19 <0> d         -17.003   7.042   0.189  0.00  0.00     0.017 A 
+ATOM     16  S1  <0> d         -17.954   3.314   0.180  0.00  0.00     0.286 S 
+ATOM     17  C22 <0> d         -19.476   5.784   0.205  0.00  0.00     0.026 A 
+ATOM     18  N6  <0> d         -16.282   3.382   0.166  0.00  0.00    -0.141 NA
+ATOM     19  O4  <0> d         -18.377   2.788  -1.070  0.00  0.00    -0.198 OA
+ATOM     20  O5  <0> d         -18.355   2.776   1.433  0.00  0.00    -0.198 OA
+ATOM     21  C21 <0> d         -19.401   7.170   0.211  0.00  0.00     0.002 A 
+ATOM     22  C20 <0> d         -18.162   7.785   0.203  0.00  0.00     0.001 A 
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+BRANCH   1  23
+ATOM     23  N3  <0> d          -4.925   3.964   0.067  0.00  0.00    -0.262 N 
+ATOM     24  C9  <0> d          -3.790   3.237   0.053  0.00  0.00     0.291 C 
+ATOM     25  O2  <0> d          -3.846   2.023   0.048  0.00  0.00    -0.264 OA
+ATOM     26  H6  <0> d          -4.881   4.933   0.071  0.00  0.00     0.190 HD
+BRANCH  24  27
+ATOM     27  C7  <0> d          -2.479   3.916   0.045  0.00  0.00     0.157 A 
+ATOM     28  C5  <0> d          -1.234   3.131   0.030  0.00  0.00     0.016 A 
+ATOM     29  C4  <0> d          -0.014   3.846   0.022  0.00  0.00     0.046 A 
+ATOM     30  C6  <0> d          -1.221   1.740   0.017  0.00  0.00     0.015 A 
+ATOM     31  C3  <0> d           1.194   3.157   0.007  0.00  0.00     0.018 A 
+ATOM     32  C8  <0> d          -0.096   5.313   0.030  0.00  0.00     0.272 A 
+ATOM     33  C2  <0> d           1.185   1.778   0.000  0.00  0.00     0.001 A 
+ATOM     34  C1  <0> d          -0.013   1.076   0.008  0.00  0.00     0.001 A 
+ATOM     35  N2  <0> d          -1.316   5.888   0.043  0.00  0.00    -0.242 N 
+ATOM     36  O1  <0> d           0.913   5.994   0.023  0.00  0.00    -0.266 OA
+ATOM     37  N1  <0> d          -2.410   5.225   0.050  0.00  0.00    -0.166 NA
+ATOM     38  H1  <0> d          -1.367   6.857   0.048  0.00  0.00     0.192 HD
+ENDBRANCH  24  27
+ENDBRANCH   1  23
+TORSDOF 9

@@ -1,0 +1,66 @@
+MODEL 1
+REMARK VINA RESULT:      83.9      0.000      0.000
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  36 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C1_6 
+REMARK    2  A    between atoms: O1_1  and  C2_7 
+REMARK    3  A    between atoms: O1_1  and  C6_11 
+REMARK    4  A    between atoms: O2_2  and  C1_6 
+REMARK    5  A    between atoms: O2_2  and  C3_8 
+REMARK    6  A    between atoms: O2_2  and  C8_13 
+REMARK    7  A    between atoms: O2_2  and  C11_16 
+REMARK    8  A    between atoms: O3_3  and  N2_5 
+REMARK    9  A    between atoms: N1_4  and  N2_5 
+REMARK   10  A    between atoms: N1_4  and  C1_6 
+REMARK   11  A    between atoms: N2_5  and  C9_14 
+REMARK   12  A    between atoms: N2_5  and  C1_6 
+REMARK   13  A    between atoms: C1_6  and  C4_9 
+REMARK   14  A    between atoms: C1_6  and  C5_10 
+REMARK   15  A    between atoms: C1_6  and  C9_14 
+REMARK   16  A    between atoms: C2_7  and  C4_9 
+REMARK   17  A    between atoms: C2_7  and  C5_10 
+REMARK   18  A    between atoms: C2_7  and  C7_12 
+REMARK   19  A    between atoms: C2_7  and  C8_13 
+REMARK   20  A    between atoms: C2_7  and  C10_15 
+REMARK   21  A    between atoms: C3_8  and  C4_9 
+REMARK   22  A    between atoms: C3_8  and  C5_10 
+REMARK   23  A    between atoms: C3_8  and  C6_11 
+REMARK   24  A    between atoms: C3_8  and  C12_17 
+REMARK   25  A    between atoms: C4_9  and  C5_10 
+REMARK   26  A    between atoms: C4_9  and  C6_11 
+REMARK   27  A    between atoms: C4_9  and  C9_14 
+REMARK   28  A    between atoms: C5_10  and  C8_13 
+REMARK   29  A    between atoms: C5_10  and  C9_14 
+REMARK   30  A    between atoms: C6_11  and  C7_12 
+REMARK   31  A    between atoms: C7_12  and  C8_13 
+REMARK   32  A    between atoms: C7_12  and  C11_16 
+REMARK   33  A    between atoms: C8_13  and  C10_15 
+REMARK   34  A    between atoms: C8_13  and  C12_17 
+REMARK   35  A    between atoms: C10_15  and  C11_16 
+REMARK   36  A    between atoms: C11_16  and  C12_17 
+ROOT
+HETATM    1  O1  UNL     1     -41.049  14.493  47.760  1.00  0.00     0.000 OA
+HETATM    2  O3  UNL     1     -41.325  12.611  49.892  1.00  0.00     0.000 OA
+HETATM    3  N1  UNL     1     -41.187  13.552  48.826  1.00  0.00     0.000 N 
+HETATM    4  C4  UNL     1     -41.004  14.312  48.564  1.00  0.00     0.000 A 
+HETATM    5  C9  UNL     1     -41.142  13.371  49.629  1.00  0.00     0.000 A 
+ENDROOT
+BRANCH   1   6
+HETATM    6  C1  UNL     1     -40.776  14.892  49.104  1.00  0.00     0.000 A 
+HETATM    7  C2  UNL     1     -40.197  14.976  48.524  1.00  0.00     0.000 A 
+HETATM    8  C6  UNL     1     -40.355  14.745  47.747  1.00  0.00     0.000 A 
+HETATM    9  C3  UNL     1     -40.039  15.206  49.300  1.00  0.00     0.000 A 
+HETATM   10  C7  UNL     1     -39.459  15.290  48.719  1.00  0.00     0.000 A 
+HETATM   11  C8  UNL     1     -39.881  15.436  50.077  1.00  0.00     0.000 A 
+HETATM   12  C10 UNL     1     -38.722  15.604  48.915  1.00  0.00     0.000 A 
+HETATM   13  C11 UNL     1     -39.143  15.750  50.271  1.00  0.00     0.000 A 
+HETATM   14  C12 UNL     1     -38.564  15.834  49.691  1.00  0.00     0.000 A 
+BRANCH   7  15
+HETATM   15  C5  UNL     1     -41.020  14.976  49.888  1.00  0.00     0.000 A 
+HETATM   16  O2  UNL     1     -41.318  15.743  49.956  1.00  0.00     0.000 OA
+HETATM   17  N2  UNL     1     -41.184  14.416  50.470  1.00  0.00     0.000 N 
+ENDBRANCH   7  15
+ENDBRANCH   1   6
+TORSDOF 36
+ENDMDL

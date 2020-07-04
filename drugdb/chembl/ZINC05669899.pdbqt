@@ -1,0 +1,41 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  S2_7 
+REMARK    2  A    between atoms: S2_7  and  C4_8 
+REMARK    3  A    between atoms: C4_8  and  C5_9 
+REMARK       I    between atoms: C5_9  and  N3_11 
+REMARK    4  A    between atoms: N3_11  and  C6_12 
+REMARK    5  A    between atoms: C6_12  and  C8_14 
+REMARK    6  A    between atoms: C8_14  and  O2_15 
+ROOT
+ATOM      1  C5  <0> d          -0.445   5.768   0.040  0.00  0.00     0.227 C 
+ATOM      2  O1  <0> d           0.583   6.411   0.033  0.00  0.00    -0.273 OA
+ATOM      3  N3  <0> d          -1.635   6.401   0.055  0.00  0.00    -0.354 N 
+ATOM      4  H7  <0> d          -2.458   5.888   0.061  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C4  <0> d          -0.393   4.262   0.030  0.00  0.00     0.184 C 
+BRANCH   5   6
+ATOM      6  S2  <0> d           1.333   3.718   0.010  0.00  0.00    -0.092 SA
+BRANCH   6   7
+ATOM      7  C3  <0> d           1.103   1.971   0.002  0.00  0.00     0.159 A 
+ATOM      8  N2  <0> d          -0.015   1.257   0.009  0.00  0.00    -0.135 NA
+ATOM      9  N1  <0> d           0.002  -0.004   0.002  0.00  0.00    -0.146 NA
+ATOM     10  C2  <0> d           1.126  -0.691  -0.012  0.00  0.00     0.096 A 
+ATOM     11  C1  <0> d           1.350  -2.181  -0.023  0.00  0.00     0.081 C 
+ATOM     12  S1  <0> d           2.312   0.650  -0.017  0.00  0.00    -0.045 SA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   3  13
+ATOM     13  C6  <0> d          -1.686   7.865   0.064  0.00  0.00     0.104 C 
+ATOM     14  C7  <0> d          -1.592   8.388  -1.371  0.00  0.00     0.034 C 
+BRANCH  13  15
+ATOM     15  C8  <0> d          -3.004   8.326   0.690  0.00  0.00     0.189 C 
+BRANCH  15  16
+ATOM     16  O2  <0> d          -4.093   7.915  -0.138  0.00  0.00    -0.399 OA
+ATOM     17  H13 <0> d          -4.962   8.174   0.198  0.00  0.00     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   3  13
+TORSDOF 6

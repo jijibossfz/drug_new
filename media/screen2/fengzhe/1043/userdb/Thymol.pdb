@@ -1,0 +1,20 @@
+COMPND    Thymol
+HETATM    1  C1  UNL     1      -0.130  -0.375   0.000  1.00  0.00           C  
+HETATM    2  C2  UNL     1       0.585   0.037   0.000  1.00  0.00           C  
+HETATM    3  C3  UNL     1      -0.844   0.037   0.000  1.00  0.00           C  
+HETATM    4  C4  UNL     1      -0.130  -1.200   0.000  1.00  0.00           C  
+HETATM    5  C5  UNL     1       0.585   0.863   0.000  1.00  0.00           C  
+HETATM    6  O1  UNL     1       1.299  -0.375   0.000  1.00  0.00           O  
+HETATM    7  C6  UNL     1      -0.844   0.863   0.000  1.00  0.00           C  
+HETATM    8  C7  UNL     1      -0.844  -1.613   0.000  1.00  0.00           C  
+HETATM    9  C8  UNL     1       0.585  -1.613   0.000  1.00  0.00           C  
+HETATM   10  C9  UNL     1      -0.130   1.275   0.000  1.00  0.00           C  
+HETATM   11  C10 UNL     1      -0.130   2.100   0.000  1.00  0.00           C  
+CONECT    1    2    2    3    4
+CONECT    2    5    6
+CONECT    3    7    7
+CONECT    4    8    9
+CONECT    5   10   10
+CONECT    7   10
+CONECT   10   11
+END

@@ -1,0 +1,36 @@
+MODEL 1
+REMARK VINA RESULT:     164.6      0.000      0.000
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_8  and  C4_10 
+REMARK    2  A    between atoms: C2_8  and  C9_15 
+REMARK    3  A    between atoms: C3_9  and  C4_10 
+REMARK    4  A    between atoms: C3_9  and  C6_12 
+REMARK    5  A    between atoms: C4_10  and  C5_11 
+REMARK    6  A    between atoms: C5_11  and  C6_12 
+REMARK    7  A    between atoms: C5_11  and  C8_14 
+REMARK    8  A    between atoms: C6_12  and  C7_13 
+REMARK    9  A    between atoms: C6_12  and  C9_15 
+REMARK   10  A    between atoms: C7_13  and  C8_14 
+REMARK   11  A    between atoms: C8_14  and  C9_15 
+ROOT
+HETATM    1  O1  UNL     1     -37.290  14.360  50.442  1.00  0.00     0.000 OA
+HETATM    2  O2  UNL     1     -37.928  13.082  50.473  1.00  0.00     0.000 OA
+HETATM    3  O3  UNL     1     -36.651  15.638  50.412  1.00  0.00    -0.246 OA
+HETATM    4  O4  UNL     1     -38.567  11.804  50.503  1.00  0.00    -0.246 OA
+HETATM    5  N1  UNL     1     -35.864  14.446  50.413  1.00  0.00    -0.051 NA
+HETATM    6  N2  UNL     1     -37.141  11.891  50.474  1.00  0.00    -0.051 NA
+HETATM    7  C1  UNL     1     -38.716  14.275  50.471  1.00  0.00     0.008 A 
+HETATM    8  C2  UNL     1     -39.454  14.644  50.480  1.00  0.00     0.007 A 
+HETATM    9  C3  UNL     1     -38.027  14.729  50.451  1.00  0.00     0.045 A 
+HETATM   10  C4  UNL     1     -38.666  13.451  50.482  1.00  0.00     0.045 A 
+HETATM   11  C5  UNL     1     -40.142  14.189  50.500  1.00  0.00     0.004 A 
+HETATM   12  C6  UNL     1     -39.503  15.467  50.470  1.00  0.00     0.004 A 
+HETATM   13  C7  UNL     1     -40.880  14.558  50.510  1.00  0.00     0.001 A 
+HETATM   14  C8  UNL     1     -40.241  15.836  50.479  1.00  0.00     0.001 A 
+HETATM   15  C9  UNL     1     -40.930  15.382  50.499  1.00  0.00     0.001 A 
+HETATM   16  C10 UNL     1     -36.602  14.815  50.422  1.00  0.00     0.240 A 
+HETATM   17  C11 UNL     1     -37.879  12.260  50.483  1.00  0.00     0.240 A 
+ENDROOT
+TORSDOF 11
+ENDMDL

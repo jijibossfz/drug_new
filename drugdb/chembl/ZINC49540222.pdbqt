@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C6_8 
+REMARK    2  A    between atoms: C6_8  and  N2_10 
+REMARK       I    between atoms: N2_10  and  C8_11 
+REMARK       I    between atoms: C8_11  and  N3_13 
+REMARK       I    between atoms: N3_13  and  C9_14 
+REMARK    3  A    between atoms: C9_14  and  C10_16 
+ROOT
+ATOM      1  N2  <0> d           0.975  -0.964  -3.369  0.00  0.00    -0.334 N 
+ATOM      2  C8  <0> d           1.510  -0.416  -4.478  0.00  0.00     0.323 C 
+ATOM      3  O1  <0> d           1.178   0.700  -4.826  0.00  0.00    -0.247 OA
+ATOM      4  N3  <0> d           2.415  -1.106  -5.201  0.00  0.00    -0.278 N 
+ATOM      5  C9  <0> d           2.950  -0.557  -6.310  0.00  0.00     0.239 C 
+ATOM      6  O2  <0> d           2.618   0.556  -6.657  0.00  0.00    -0.272 OA
+ATOM      7  H11 <0> d           1.240  -1.855  -3.092  0.00  0.00     0.165 HD
+ATOM      8  H12 <0> d           2.680  -1.996  -4.924  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C6  <0> d          -0.008  -0.215  -2.583  0.00  0.00     0.124 C 
+ATOM     10  C7  <0> d          -1.402  -0.420  -3.180  0.00  0.00     0.038 C 
+BRANCH   9  11
+ATOM     11  C3  <0> d           0.006  -0.708  -1.159  0.00  0.00     0.031 A 
+ATOM     12  C2  <0> d           0.002  -0.004   0.002  0.00  0.00     0.046 A 
+ATOM     13  C1  <0> d          -0.018   1.503   0.010  0.00  0.00     0.071 C 
+ATOM     14  N1  <0> d           0.023  -0.699   1.122  0.00  0.00    -0.250 NA
+ATOM     15  C4  <0> d           0.036  -2.009   1.111  0.00  0.00     0.072 A 
+ATOM     16  S1  <0> d           0.032  -2.379  -0.531  0.00  0.00    -0.076 SA
+ATOM     17  C5  <0> d           0.055  -2.955   2.284  0.00  0.00     0.078 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   5  18
+ATOM     18  C10 <0> d           3.962  -1.329  -7.119  0.00  0.00     0.217 C 
+ATOM     19 Cl1  <0> d           4.486  -0.336  -8.529  0.00  0.00    -0.121 Cl
+ENDBRANCH   5  18
+TORSDOF 3

@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_2  and  C2_3 
+REMARK    2  A    between atoms: C2_3  and  C3_4 
+REMARK    3  A    between atoms: C3_4  and  N1_5 
+REMARK       I    between atoms: N1_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_8 
+REMARK    5  A    between atoms: C7_10  and  C8_14 
+ROOT
+ATOM      1  C5  <0> d          -2.449  -4.334  -1.132  0.00  0.00     0.137 A 
+ATOM      2  C6  <0> d          -2.897  -5.644  -1.076  0.00  0.00     0.071 A 
+ATOM      3  C7  <0> d          -4.287  -5.564  -1.192  0.00  0.00     0.078 A 
+ATOM      4  N2  <0> d          -4.609  -4.301  -1.306  0.00  0.00    -0.177 NA
+ATOM      5  N3  <0> d          -3.565  -3.555  -1.269  0.00  0.00    -0.271 N 
+ATOM      6  H1  <0> d          -3.566  -2.587  -1.332  0.00  0.00     0.189 HD
+ATOM      7 Br1  <0> d          -1.849  -7.206  -0.883  0.00  0.00    -0.046 Br
+ENDROOT
+BRANCH   1   8
+ATOM      8  C4  <0> d          -1.055  -3.873  -1.054  0.00  0.00     0.271 C 
+ATOM      9  N1  <0> d          -0.776  -2.556  -1.119  0.00  0.00    -0.354 N 
+ATOM     10  H9  <0> d          -1.495  -1.912  -1.217  0.00  0.00     0.162 HD
+ATOM     11  O2  <0> d          -0.153  -4.680  -0.932  0.00  0.00    -0.266 OA
+BRANCH   9  12
+ATOM     12  C3  <0> d           0.613  -2.097  -1.041  0.00  0.00     0.149 C 
+BRANCH  12  13
+ATOM     13  C2  <0> d           0.652  -0.570  -1.138  0.00  0.00     0.186 C 
+BRANCH  13  14
+ATOM     14  O1  <0> d           0.002  -0.004   0.002  0.00  0.00    -0.394 OA
+ATOM     15  C1  <0> d          -0.017   1.425   0.010  0.00  0.00     0.201 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   1   8
+BRANCH   3  16
+ATOM     16  C8  <0> d          -5.246  -6.727  -1.186  0.00  0.00     0.041 A 
+ATOM     17  C10 <0> d          -6.308  -6.762  -0.086  0.00  0.00     0.011 A 
+ATOM     18  C9  <0> d          -6.709  -6.439  -1.527  0.00  0.00     0.011 A 
+ENDBRANCH   3  16
+TORSDOF 5

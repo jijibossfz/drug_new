@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C6_9 
+REMARK       I    between atoms: C6_9  and  N3_11 
+REMARK    2  A    between atoms: N3_11  and  C7_12 
+REMARK    3  A    between atoms: C7_12  and  C8_13 
+ROOT
+ATOM      1  C6  <0> d          -0.005  -0.369  -2.520  0.00  0.00     0.255 C 
+ATOM      2  O1  <0> d           1.042  -0.170  -3.105  0.00  0.00    -0.268 OA
+ATOM      3  N3  <0> d          -1.178  -0.182  -3.157  0.00  0.00    -0.356 N 
+ATOM      4  H9  <0> d          -2.014  -0.341  -2.691  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C3  <0> d           0.008  -0.815  -1.115  0.00  0.00     0.081 A 
+ATOM      6  C2  <0> d           0.002  -0.004   0.002  0.00  0.00     0.041 A 
+ATOM      7  C1  <0> d          -0.018   1.503   0.010  0.00  0.00     0.071 C 
+ATOM      8  N2  <0> d           0.024  -0.804   1.080  0.00  0.00    -0.281 N 
+ATOM      9  N1  <0> d           0.035  -2.134   0.645  0.00  0.00    -0.179 NA
+ATOM     10  H1  <0> d           0.029  -0.510   2.004  0.00  0.00     0.189 HD
+ATOM     11  C4  <0> d           0.029  -2.152  -0.660  0.00  0.00     0.068 A 
+ATOM     12  C5  <0> d           0.042  -3.384  -1.528  0.00  0.00     0.073 C 
+ENDBRANCH   1   5
+BRANCH   3  13
+ATOM     13  C7  <0> d          -1.191   0.261  -4.553  0.00  0.00     0.128 C 
+BRANCH  13  14
+ATOM     14  C8  <0> d          -2.638   0.395  -5.032  0.00  0.00     0.018 C 
+ATOM     15  C11 <0> d          -2.651   0.718  -6.546  0.00  0.00     0.146 C 
+ATOM     16  S1  <0> d          -4.158   1.754  -6.727  0.00  0.00     0.144 S 
+ATOM     17  C10 <0> d          -4.678   1.847  -4.961  0.00  0.00     0.141 C 
+ATOM     18  O2  <0> d          -5.135   1.026  -7.458  0.00  0.00    -0.228 OA
+ATOM     19  O3  <0> d          -3.778   3.051  -7.166  0.00  0.00    -0.228 OA
+ATOM     20  C9  <0> d          -3.332   1.523  -4.251  0.00  0.00     0.022 C 
+ENDBRANCH  13  14
+ENDBRANCH   3  13
+TORSDOF 3

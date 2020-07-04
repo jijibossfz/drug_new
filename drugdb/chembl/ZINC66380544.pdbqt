@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  C5_7 
+REMARK       I    between atoms: C5_7  and  N2_9 
+REMARK    2  A    between atoms: N2_9  and  C6_10 
+REMARK    3  A    between atoms: N4_13  and  C9_15 
+REMARK    4  A    between atoms: C9_15  and  C10_16 
+REMARK    5  A    between atoms: C10_16  and  O2_17 
+ROOT
+ATOM      1  C5  <0> d           0.061  -3.971   0.896  0.00  0.00     0.264 C 
+ATOM      2  O1  <0> d           0.070  -4.898   0.106  0.00  0.00    -0.267 OA
+ATOM      3  N2  <0> d           0.070  -4.216   2.221  0.00  0.00    -0.320 N 
+ATOM      4  H5  <0> d           0.063  -3.478   2.850  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C6  <0> d           0.090  -5.542   2.692  0.00  0.00     0.071 A 
+ATOM      6  C8  <0> d           0.101  -5.928   3.994  0.00  0.00     0.143 A 
+ATOM      7  N4  <0> d           0.116  -7.286   4.018  0.00  0.00    -0.277 N 
+ATOM      8  N3  <0> d           0.124  -7.740   2.693  0.00  0.00    -0.183 NA
+ATOM      9  C7  <0> d           0.108  -6.699   1.900  0.00  0.00     0.169 A 
+BRANCH   7  10
+ATOM     10  C9  <0> d           0.127  -8.127   5.218  0.00  0.00     0.176 C 
+BRANCH  10  11
+ATOM     11  C10 <0> d          -1.040  -9.115   5.159  0.00  0.00     0.185 C 
+BRANCH  11  12
+ATOM     12  O2  <0> d          -1.029  -9.935   6.329  0.00  0.00    -0.399 OA
+ATOM     13  H12 <0> d          -1.743 -10.586   6.359  0.00  0.00     0.209 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   3   5
+BRANCH   1  14
+ATOM     14  C4  <0> d           0.040  -2.589   0.405  0.00  0.00     0.092 A 
+ATOM     15  C3  <0> d           0.028  -2.114  -0.888  0.00  0.00     0.142 A 
+ATOM     16  N1  <0> d           0.009  -0.812  -1.033  0.00  0.00    -0.257 NA
+ATOM     17  C2  <0> d           0.002  -0.004   0.002  0.00  0.00     0.071 A 
+ATOM     18  C1  <0> d          -0.018   1.503   0.010  0.00  0.00     0.078 C 
+ATOM     19  S1  <0> d           0.029  -1.054   1.317  0.00  0.00    -0.068 SA
+ENDBRANCH   1  14
+TORSDOF 5

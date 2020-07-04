@@ -1,0 +1,84 @@
+MODEL 1
+REMARK VINA RESULT:       2.1      0.000      0.000
+REMARK  30 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C3_17 
+REMARK    2  A    between atoms: O2_2  and  C4_18 
+REMARK    3  A    between atoms: O3_3  and  N3_7 
+REMARK    4  A    between atoms: O4_4  and  N4_8 
+REMARK    5  A    between atoms: N1_5  and  N3_7 
+REMARK    6  A    between atoms: N2_6  and  N4_8 
+REMARK    7  A    between atoms: N3_7  and  C7_21 
+REMARK    8  A    between atoms: N3_7  and  C3_17 
+REMARK    9  A    between atoms: N4_8  and  C8_22 
+REMARK   10  A    between atoms: N4_8  and  C4_18 
+REMARK   11  A    between atoms: N5_9  and  N7_11 
+REMARK   12  A    between atoms: N5_9  and  C5_19 
+REMARK   13  A    between atoms: N6_10  and  N8_12 
+REMARK   14  A    between atoms: N6_10  and  C6_20 
+REMARK   15  A    between atoms: N7_11  and  C13_27 
+REMARK   16  A    between atoms: N8_12  and  C14_28 
+REMARK   17  A    between atoms: C1_15  and  C5_19 
+REMARK   18  A    between atoms: C1_15  and  C13_27 
+REMARK   19  A    between atoms: C2_16  and  C6_20 
+REMARK   20  A    between atoms: C2_16  and  C14_28 
+REMARK   21  A    between atoms: C3_17  and  C5_19 
+REMARK   22  A    between atoms: C3_17  and  C7_21 
+REMARK   23  A    between atoms: C4_18  and  C6_20 
+REMARK   24  A    between atoms: C4_18  and  C8_22 
+REMARK   25  A    between atoms: C5_19  and  C7_21 
+REMARK   26  A    between atoms: C6_20  and  C8_22 
+REMARK   27  A    between atoms: C7_21  and  C9_23 
+REMARK   28  A    between atoms: C7_21  and  C11_25 
+REMARK   29  A    between atoms: C8_22  and  C10_24 
+REMARK   30  A    between atoms: C8_22  and  C12_26 
+ROOT
+HETATM    1  N9  UNL     1     -41.309  15.746  49.690  1.00  0.00    -0.245 NA
+HETATM    2  N10 UNL     1     -39.292  15.837  50.519  1.00  0.00    -0.245 NA
+HETATM    3  C15 UNL     1     -40.486  15.772  49.736  1.00  0.00     0.245 A 
+HETATM    4  C16 UNL     1     -40.116  15.811  50.472  1.00  0.00     0.245 A 
+ENDROOT
+TORSDOF 30
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:       2.3      0.141      1.650
+REMARK  30 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C3_17 
+REMARK    2  A    between atoms: O2_2  and  C4_18 
+REMARK    3  A    between atoms: O3_3  and  N3_7 
+REMARK    4  A    between atoms: O4_4  and  N4_8 
+REMARK    5  A    between atoms: N1_5  and  N3_7 
+REMARK    6  A    between atoms: N2_6  and  N4_8 
+REMARK    7  A    between atoms: N3_7  and  C7_21 
+REMARK    8  A    between atoms: N3_7  and  C3_17 
+REMARK    9  A    between atoms: N4_8  and  C8_22 
+REMARK   10  A    between atoms: N4_8  and  C4_18 
+REMARK   11  A    between atoms: N5_9  and  N7_11 
+REMARK   12  A    between atoms: N5_9  and  C5_19 
+REMARK   13  A    between atoms: N6_10  and  N8_12 
+REMARK   14  A    between atoms: N6_10  and  C6_20 
+REMARK   15  A    between atoms: N7_11  and  C13_27 
+REMARK   16  A    between atoms: N8_12  and  C14_28 
+REMARK   17  A    between atoms: C1_15  and  C5_19 
+REMARK   18  A    between atoms: C1_15  and  C13_27 
+REMARK   19  A    between atoms: C2_16  and  C6_20 
+REMARK   20  A    between atoms: C2_16  and  C14_28 
+REMARK   21  A    between atoms: C3_17  and  C5_19 
+REMARK   22  A    between atoms: C3_17  and  C7_21 
+REMARK   23  A    between atoms: C4_18  and  C6_20 
+REMARK   24  A    between atoms: C4_18  and  C8_22 
+REMARK   25  A    between atoms: C5_19  and  C7_21 
+REMARK   26  A    between atoms: C6_20  and  C8_22 
+REMARK   27  A    between atoms: C7_21  and  C9_23 
+REMARK   28  A    between atoms: C7_21  and  C11_25 
+REMARK   29  A    between atoms: C8_22  and  C10_24 
+REMARK   30  A    between atoms: C8_22  and  C12_26 
+ROOT
+HETATM    1  N9  UNL     1     -39.153  15.787  50.413  1.00  0.00    -0.245 NA
+HETATM    2  N10 UNL     1     -41.251  15.791  49.810  1.00  0.00    -0.245 NA
+HETATM    3  C15 UNL     1     -39.976  15.838  50.453  1.00  0.00     0.245 A 
+HETATM    4  C16 UNL     1     -40.429  15.740  49.770  1.00  0.00     0.245 A 
+ENDROOT
+TORSDOF 30
+ENDMDL

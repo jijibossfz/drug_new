@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  N2_6 
+REMARK       I    between atoms: N2_6  and  C4_7 
+REMARK       I    between atoms: C4_7  and  N3_9 
+REMARK    2  A    between atoms: N3_9  and  N4_10 
+REMARK    3  A    between atoms: N4_10  and  N5_11 
+REMARK    4  A    between atoms: N5_11  and  C5_12 
+REMARK    5  A    between atoms: C6_14  and  N10_30 
+REMARK    6  A    between atoms: N8_18  and  C10_21 
+REMARK    7  A    between atoms: C11_22  and  O5_29 
+REMARK    8  A    between atoms: C12_23  and  O4_28 
+REMARK    9  A    between atoms: C13_24  and  C14_26 
+REMARK   10  A    between atoms: C14_26  and  O3_27 
+ROOT
+ATOM      1  C5  <0> d           0.900  -6.892   0.040  0.00  0.00     0.772 A 
+ATOM      2  N6  <0> d          -0.316  -6.389  -0.154  0.00  0.00    -0.040 NA
+ATOM      3  C6  <0> d          -1.388  -7.170  -0.160  0.00  0.00     0.173 A 
+ATOM      4  C7  <0> d          -1.216  -8.552   0.046  0.00  0.00     0.150 A 
+ATOM      5  C8  <0> d           0.088  -9.039   0.247  0.00  0.00     0.185 A 
+ATOM      6  N7  <0> d           1.107  -8.188   0.231  0.00  0.00    -0.039 NA
+ATOM      7  N8  <0> d          -0.037 -10.395   0.418  0.00  0.00    -0.293 N 
+ATOM      8  C9  <0> d          -1.363 -10.698   0.322  0.00  0.00     0.214 A 
+ATOM      9  N9  <0> d          -2.052  -9.615   0.103  0.00  0.00    -0.236 NA
+ENDROOT
+BRANCH   1  10
+ATOM     10  N5  <0> d           1.975  -6.045   0.036  0.00  0.00     0.064 NA
+BRANCH  10  11
+ATOM     11  N4  <0> d           1.857  -4.852   0.512  0.00  0.00    -0.048 NA
+BRANCH  11  12
+ATOM     12  N3  <0> d           0.679  -4.473   1.168  0.00  0.00    -0.209 N 
+ATOM     13  C4  <0> d           0.510  -3.196   1.566  0.00  0.00     0.343 C 
+ATOM     14  N2  <0> d           1.476  -2.285   1.334  0.00  0.00    -0.286 N 
+ATOM     15  O1  <0> d          -0.512  -2.867   2.135  0.00  0.00    -0.245 OA
+ATOM     16  H6  <0> d           2.292  -2.547   0.880  0.00  0.00     0.172 HD
+ATOM     17  H7  <0> d          -0.016  -5.128   1.335  0.00  0.00     0.195 HD
+BRANCH  14  18
+ATOM     18  C3  <0> d           1.302  -0.968   1.745  0.00  0.00     0.174 A 
+ATOM     19  S1  <0> d           2.357   0.331   1.566  0.00  0.00    -0.062 SA
+ATOM     20  C2  <0> d           1.351   1.576   2.356  0.00  0.00     0.072 A 
+ATOM     21  C1  <0> d           0.260   0.844   2.692  0.00  0.00     0.126 A 
+ATOM     22  N1  <0> d           0.273  -0.435   2.367  0.00  0.00    -0.236 NA
+ENDBRANCH  14  18
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   3  23
+ATOM     23  N10 <0> d          -2.649  -6.638  -0.362  0.00  0.00    -0.381 N 
+ATOM     24  H15 <0> d          -2.756  -5.684  -0.502  0.00  0.00     0.157 HD
+ATOM     25  H16 <0> d          -3.426  -7.219  -0.363  0.00  0.00     0.157 HD
+ENDBRANCH   3  23
+BRANCH   7  26
+ATOM     26  C10 <0> d           1.053 -11.343   0.659  0.00  0.00     0.262 C 
+ATOM     27  O2  <0> d           0.664 -12.672   0.250  0.00  0.00    -0.353 OA
+ATOM     28  C13 <0> d           1.551 -13.564   0.960  0.00  0.00     0.179 C 
+ATOM     29  C12 <0> d           1.671 -12.957   2.375  0.00  0.00     0.182 C 
+ATOM     30  C11 <0> d           1.336 -11.463   2.173  0.00  0.00     0.198 C 
+BRANCH  28  31
+ATOM     31  C14 <0> d           0.952 -14.970   1.032  0.00  0.00     0.198 C 
+BRANCH  31  32
+ATOM     32  O3  <0> d           0.957 -15.557  -0.271  0.00  0.00    -0.398 OA
+ATOM     33  H12 <0> d           0.590 -16.451  -0.301  0.00  0.00     0.209 HD
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+BRANCH  29  34
+ATOM     34  O4  <0> d           3.001 -13.109   2.877  0.00  0.00    -0.390 OA
+ATOM     35  H13 <0> d           3.264 -14.028   3.022  0.00  0.00     0.210 HD
+ENDBRANCH  29  34
+BRANCH  30  36
+ATOM     36  O5  <0> d           2.448 -10.643   2.541  0.00  0.00    -0.388 OA
+ATOM     37  H14 <0> d           2.670 -10.681   3.481  0.00  0.00     0.210 HD
+ENDBRANCH  30  36
+ENDBRANCH   7  26
+TORSDOF 10

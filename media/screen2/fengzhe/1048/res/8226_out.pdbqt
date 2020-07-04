@@ -1,0 +1,71 @@
+MODEL 1
+REMARK VINA RESULT:     310.1      0.000      0.000
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  35 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C4_9 
+REMARK    2  A    between atoms: O1_1  and  C18_23 
+REMARK    3  A    between atoms: O2_2  and  C20_25 
+REMARK    4  A    between atoms: N2_4  and  C6_11 
+REMARK    5  A    between atoms: N3_5  and  C4_9 
+REMARK    6  A    between atoms: N3_5  and  C19_24 
+REMARK    7  A    between atoms: C1_6  and  C8_13 
+REMARK    8  A    between atoms: C2_7  and  C3_8 
+REMARK    9  A    between atoms: C2_7  and  C4_9 
+REMARK   10  A    between atoms: C2_7  and  C6_11 
+REMARK   11  A    between atoms: C2_7  and  C8_13 
+REMARK   12  A    between atoms: C3_8  and  C7_12 
+REMARK   13  A    between atoms: C3_8  and  C11_16 
+REMARK   14  A    between atoms: C3_8  and  C13_18 
+REMARK   15  A    between atoms: C4_9  and  C9_14 
+REMARK   16  A    between atoms: C4_9  and  C12_17 
+REMARK   17  A    between atoms: C5_10  and  C9_14 
+REMARK   18  A    between atoms: C5_10  and  C11_16 
+REMARK   19  A    between atoms: C5_10  and  C12_17 
+REMARK   20  A    between atoms: C6_11  and  C13_18 
+REMARK   21  A    between atoms: C6_11  and  C7_12 
+REMARK   22  A    between atoms: C6_11  and  C10_15 
+REMARK   23  A    between atoms: C7_12  and  C8_13 
+REMARK   24  A    between atoms: C7_12  and  C9_14 
+REMARK   25  A    between atoms: C7_12  and  C10_15 
+REMARK   26  A    between atoms: C8_13  and  C13_18 
+REMARK   27  A    between atoms: C8_13  and  C14_19 
+REMARK   28  A    between atoms: C9_14  and  C12_17 
+REMARK   29  A    between atoms: C9_14  and  C14_19 
+REMARK   30  A    between atoms: C10_15  and  C16_21 
+REMARK   31  A    between atoms: C12_17  and  C18_23 
+REMARK   32  A    between atoms: C14_19  and  C15_20 
+REMARK   33  A    between atoms: C15_20  and  C16_21 
+REMARK   34  A    between atoms: C18_23  and  C19_24 
+REMARK   35  A    between atoms: C19_24  and  C20_25 
+ROOT
+HETATM    1  O1  UNL     1     -36.978  12.183  50.496  1.00  0.00     0.000 OA
+HETATM    2  O2  UNL     1     -36.099  11.615  47.712  1.00  0.00     0.000 OA
+HETATM    3  N3  UNL     1     -36.755  12.949  49.309  1.00  0.00     0.000 N 
+HETATM    4  C12 UNL     1     -36.975  12.909  50.104  1.00  0.00     0.001 A 
+HETATM    5  C17 UNL     1     -36.537  12.262  48.908  1.00  0.00     0.000 A 
+HETATM    6  C18 UNL     1     -36.539  11.536  49.300  1.00  0.00     0.000 A 
+HETATM    7  C19 UNL     1     -36.317  12.302  48.114  1.00  0.00     0.000 A 
+HETATM    8  C20 UNL     1     -36.321  10.850  48.898  1.00  0.00     0.000 A 
+ENDROOT
+BRANCH   1   9
+HETATM    9  C4  UNL     1     -37.193  13.596  50.506  1.00  0.00     0.004 A 
+HETATM   10  C5  UNL     1     -36.884  14.398  50.517  1.00  0.00     0.004 A 
+HETATM   11  N1  UNL     1     -37.429  15.062  50.515  1.00  0.00     0.000 N 
+HETATM   12  C1  UNL     1     -38.276  14.916  50.503  1.00  0.00     0.046 A 
+HETATM   13  C11 UNL     1     -37.142  15.835  50.526  1.00  0.00     0.008 A 
+HETATM   14  C2  UNL     1     -38.573  14.146  50.493  1.00  0.00     0.048 A 
+HETATM   15  C3  UNL     1     -38.794  15.557  50.502  1.00  0.00     0.071 A 
+HETATM   16  C7  UNL     1     -39.388  14.018  50.481  1.00  0.00     0.063 A 
+HETATM   17  C9  UNL     1     -38.044  13.470  50.494  1.00  0.00     0.012 A 
+HETATM   18  C14 UNL     1     -39.685  13.212  50.470  1.00  0.00     0.031 A 
+HETATM   19  C16 UNL     1     -40.532  13.072  50.458  1.00  0.00     0.035 A 
+HETATM   20  C6  UNL     1     -39.609  15.430  50.491  1.00  0.00     0.153 A 
+HETATM   21  C8  UNL     1     -39.906  14.661  50.480  1.00  0.00     0.128 A 
+HETATM   22  C10 UNL     1     -40.756  14.540  50.468  1.00  0.00     0.165 A 
+HETATM   23  N2  UNL     1     -40.971  15.332  50.472  1.00  0.00    -0.023 N 
+HETATM   24  C15 UNL     1     -41.072  13.741  50.457  1.00  0.00     0.051 A 
+HETATM   25  C13 UNL     1     -40.323  15.834  50.485  1.00  0.00     0.204 A 
+ENDBRANCH   1   9
+TORSDOF 35
+ENDMDL

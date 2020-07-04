@@ -1,0 +1,76 @@
+MODEL 1
+REMARK VINA RESULT:      12.2      0.000      0.000
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CL2_2  and  CL3_3 
+REMARK    2  A    between atoms: CL2_2  and  O3_9 
+REMARK    3  A    between atoms: CL2_2  and  C12_25 
+REMARK    4  A    between atoms: CL3_3  and  C12_25 
+REMARK    5  A    between atoms: CL5_5  and  CL6_6 
+REMARK    6  A    between atoms: CL5_5  and  O5_11 
+REMARK    7  A    between atoms: CL5_5  and  C13_26 
+REMARK    8  A    between atoms: CL6_6  and  C13_26 
+REMARK    9  A    between atoms: N1_12  and  C3_16 
+REMARK   10  A    between atoms: N2_13  and  C3_16 
+REMARK   11  A    between atoms: N2_13  and  C4_17 
+REMARK   12  A    between atoms: C1_14  and  C3_16 
+REMARK   13  A    between atoms: C1_14  and  C5_18 
+REMARK   14  A    between atoms: C2_15  and  C3_16 
+REMARK   15  A    between atoms: C2_15  and  C11_24 
+REMARK   16  A    between atoms: C4_17  and  C6_19 
+REMARK   17  A    between atoms: C5_18  and  C7_20 
+REMARK   18  A    between atoms: C7_20  and  C8_21 
+REMARK   19  A    between atoms: C7_20  and  C10_23 
+REMARK   20  A    between atoms: C8_21  and  C9_22 
+REMARK   21  A    between atoms: C8_21  and  C11_24 
+REMARK   22  A    between atoms: C9_22  and  C10_23 
+REMARK   23  A    between atoms: C10_23  and  C11_24 
+ROOT
+HETATM    1 CL1  UNL     1     -40.696  15.821  50.248  1.00  0.00    -0.135 Cl
+HETATM    2 CL2  UNL     1     -39.356  15.652  49.300  1.00  0.00    -0.135 Cl
+HETATM    3 CL3  UNL     1     -39.545  15.824  50.438  1.00  0.00    -0.135 Cl
+HETATM    4  O2  UNL     1     -41.327  15.677  49.187  1.00  0.00     0.000 OA
+HETATM    5  O3  UNL     1     -40.167  15.532  48.366  1.00  0.00     0.000 OA
+HETATM    6  C12 UNL     1     -40.507  15.649  49.109  1.00  0.00     0.203 A 
+HETATM    7  C14 UNL     1     -40.025  15.736  49.773  1.00  0.00     0.203 A 
+ENDROOT
+TORSDOF 23
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      12.8      1.396      1.596
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CL2_2  and  CL3_3 
+REMARK    2  A    between atoms: CL2_2  and  O3_9 
+REMARK    3  A    between atoms: CL2_2  and  C12_25 
+REMARK    4  A    between atoms: CL3_3  and  C12_25 
+REMARK    5  A    between atoms: CL5_5  and  CL6_6 
+REMARK    6  A    between atoms: CL5_5  and  O5_11 
+REMARK    7  A    between atoms: CL5_5  and  C13_26 
+REMARK    8  A    between atoms: CL6_6  and  C13_26 
+REMARK    9  A    between atoms: N1_12  and  C3_16 
+REMARK   10  A    between atoms: N2_13  and  C3_16 
+REMARK   11  A    between atoms: N2_13  and  C4_17 
+REMARK   12  A    between atoms: C1_14  and  C3_16 
+REMARK   13  A    between atoms: C1_14  and  C5_18 
+REMARK   14  A    between atoms: C2_15  and  C3_16 
+REMARK   15  A    between atoms: C2_15  and  C11_24 
+REMARK   16  A    between atoms: C4_17  and  C6_19 
+REMARK   17  A    between atoms: C5_18  and  C7_20 
+REMARK   18  A    between atoms: C7_20  and  C8_21 
+REMARK   19  A    between atoms: C7_20  and  C10_23 
+REMARK   20  A    between atoms: C8_21  and  C9_22 
+REMARK   21  A    between atoms: C8_21  and  C11_24 
+REMARK   22  A    between atoms: C9_22  and  C10_23 
+REMARK   23  A    between atoms: C10_23  and  C11_24 
+ROOT
+HETATM    1 CL1  UNL     1     -41.316  14.684  50.384  1.00  0.00    -0.135 Cl
+HETATM    2 CL2  UNL     1     -41.215  15.658  49.056  1.00  0.00    -0.135 Cl
+HETATM    3 CL3  UNL     1     -41.253  15.836  50.209  1.00  0.00    -0.135 Cl
+HETATM    4  O2  UNL     1     -41.327  13.753  49.562  1.00  0.00     0.000 OA
+HETATM    5  O3  UNL     1     -41.240  14.596  48.411  1.00  0.00     0.000 OA
+HETATM    6  C12 UNL     1     -41.278  14.507  49.231  1.00  0.00     0.203 A 
+HETATM    7  C14 UNL     1     -41.265  15.172  49.720  1.00  0.00     0.203 A 
+ENDROOT
+TORSDOF 23
+ENDMDL

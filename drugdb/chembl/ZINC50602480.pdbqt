@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N1_3 
+REMARK    2  A    between atoms: N1_3  and  C3_4 
+REMARK    3  A    between atoms: N2_7  and  C9_11 
+REMARK    4  A    between atoms: C9_11  and  C10_12 
+ROOT
+ATOM      1  C3  <0> d           0.820  -1.958   1.170  0.00  0.00     0.189 C 
+ATOM      2  C4  <0> d          -0.628  -2.438   1.299  0.00  0.00     0.063 C 
+ATOM      3  C5  <0> d          -0.649  -3.966   1.384  0.00  0.00     0.275 C 
+ATOM      4  N2  <0> d           0.136  -4.404   2.546  0.00  0.00     0.093 N 
+ATOM      5  C6  <0> d           1.541  -3.995   2.422  0.00  0.00     0.221 C 
+ATOM      6  C7  <0> d           1.628  -2.468   2.367  0.00  0.00     0.068 C 
+ATOM      7  C8  <0> d           2.328  -4.508   3.629  0.00  0.00     0.043 C 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C9  <0> d           0.024  -5.855   2.739  0.00  0.00     0.278 C 
+BRANCH   8   9
+ATOM      9  C10 <0> d          -1.367  -6.193   3.278  0.00  0.00     0.028 C 
+ATOM     10  C13 <0> d          -1.537  -7.737   3.365  0.00  0.00     0.146 C 
+ATOM     11  S1  <0> d          -2.939  -7.856   4.554  0.00  0.00     0.144 S 
+ATOM     12  C12 <0> d          -2.790  -6.212   5.366  0.00  0.00     0.141 C 
+ATOM     13  O1  <0> d          -2.651  -8.870   5.508  0.00  0.00    -0.228 OA
+ATOM     14  O2  <0> d          -4.160  -7.904   3.829  0.00  0.00    -0.228 OA
+ATOM     15  C11 <0> d          -1.531  -5.613   4.693  0.00  0.00     0.022 C 
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+BRANCH   1  16
+ATOM     16  N1  <0> d           0.851  -0.490   1.147  0.00  0.00    -0.071 N 
+ATOM     17  H9  <0> d           1.809  -0.173   1.148  0.00  0.00     0.277 HD
+ATOM     18  H27 <0> d           0.378  -0.131   1.963  0.00  0.00     0.277 HD
+BRANCH  16  19
+ATOM     19  C2  <0> d           0.176  -0.005  -0.064  0.00  0.00     0.228 C 
+ATOM     20  C1  <0> d           0.208   1.524  -0.088  0.00  0.00     0.034 C 
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 4

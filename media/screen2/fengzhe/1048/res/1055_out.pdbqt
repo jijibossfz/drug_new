@@ -1,0 +1,36 @@
+MODEL 1
+REMARK VINA RESULT:      98.0      0.000      0.000
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_2  and  C8_14 
+REMARK    2  A    between atoms: O4_4  and  C7_13 
+REMARK    3  A    between atoms: N1_5  and  C6_12 
+REMARK    4  A    between atoms: N2_6  and  C4_10 
+REMARK    5  A    between atoms: N2_6  and  C5_11 
+REMARK    6  A    between atoms: C1_7  and  C5_11 
+REMARK    7  A    between atoms: C2_8  and  C4_10 
+REMARK    8  A    between atoms: C3_9  and  C4_10 
+REMARK    9  A    between atoms: C3_9  and  C7_13 
+REMARK   10  A    between atoms: C3_9  and  C8_14 
+REMARK   11  A    between atoms: C4_10  and  C6_12 
+REMARK   12  A    between atoms: C4_10  and  C8_14 
+REMARK   13  A    between atoms: C6_12  and  C7_13 
+REMARK   14  A    between atoms: C7_13  and  C8_14 
+ROOT
+HETATM    1  O1  UNL     1     -41.102  10.729  47.808  1.00  0.00    -0.269 OA
+HETATM    2  O2  UNL     1     -41.169  15.075  50.317  1.00  0.00     0.000 OA
+HETATM    3  O3  UNL     1     -40.999  10.851  49.228  1.00  0.00    -0.269 OA
+HETATM    4  O4  UNL     1     -41.327  15.774  48.830  1.00  0.00     0.000 OA
+HETATM    5  N1  UNL     1     -41.163  13.313  49.029  1.00  0.00     0.000 N 
+HETATM    6  N2  UNL     1     -41.212  12.370  47.675  1.00  0.00     0.088 N 
+HETATM    7  C1  UNL     1     -41.108  12.492  49.095  1.00  0.00     0.309 A 
+HETATM    8  C2  UNL     1     -41.133  12.021  48.419  1.00  0.00     0.361 A 
+HETATM    9  C3  UNL     1     -41.138  13.783  49.707  1.00  0.00     0.070 A 
+HETATM   10  C4  UNL     1     -41.242  13.662  48.287  1.00  0.00     0.203 A 
+HETATM   11  C5  UNL     1     -41.078  11.200  48.485  1.00  0.00     0.397 A 
+HETATM   12  C6  UNL     1     -41.193  14.604  49.640  1.00  0.00     0.037 A 
+HETATM   13  C7  UNL     1     -41.297  14.482  48.220  1.00  0.00     0.037 A 
+HETATM   14  C8  UNL     1     -41.272  14.954  48.896  1.00  0.00     0.037 A 
+ENDROOT
+TORSDOF 14
+ENDMDL

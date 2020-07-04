@@ -1,0 +1,43 @@
+#	Name:			<unnamed>
+#	Creating user name:	jianping
+#	Creation time:		Mon Oct 21 11:19:14 2019
+
+#	Modifying user name:	jianping
+#	Modification time:	Mon Oct 21 11:20:35 2019
+
+@<TRIPOS>MOLECULE
+****
+    8     7     1     4     0
+SMALL
+GAST_HUCK
+
+
+@<TRIPOS>ATOM
+      1 C1        -20.3301    4.4676   -0.0010 C.3       1 <1>        -0.0681 
+      2 C2        -18.7923    4.2312    0.0014 C.3       1 <1>        -0.0681 
+      3 H1        -20.6773    4.7844   -0.9976 H         1 <1>         0.0227 
+      4 H2        -20.6081    5.2513    0.7219 H         1 <1>         0.0227 
+      5 H3        -20.8696    3.5461    0.2709 H         1 <1>         0.0227 
+      6 H4        -18.5554    3.1901    0.2738 H         1 <1>         0.0227 
+      7 H5        -18.2940    4.8950    0.7261 H         1 <1>         0.0227 
+      8 H6        -18.3629    4.4294   -0.9938 H         1 <1>         0.0227 
+@<TRIPOS>BOND
+     1    2    1 1    
+     2    1    3 1    
+     3    1    4 1    
+     4    1    5 1    
+     5    2    6 1    
+     6    2    7 1    
+     7    2    8 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ****        2 TEMP              0 ****  ****    0 ROOT 
+@<TRIPOS>ROTATABLE_BOND
+    1     7     4  1 1     0  1   1    0 359
+@<TRIPOS>ANCHOR_ATOM
+2
+@<TRIPOS>NORMAL
+@<TRIPOS>FF_PBC
+FORCE_FIELD_SETUP_FEATURE Force Field Setup information
+v1.0  0 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 NONE 0 0 0 0 0 0 0 0 0 0 0 0 0
+@<TRIPOS>SEARCH_OPTS
+1 0 1 1 9.999000e+03 0 9.500000e-01 6.500000e-01 8.700000e-01 0 0 

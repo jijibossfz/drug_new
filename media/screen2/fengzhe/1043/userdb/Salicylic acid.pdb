@@ -1,0 +1,20 @@
+COMPND    Salicylic acid
+HETATM    1  O1  UNL     1      16.168 -10.003   0.000  1.00  0.00           O  
+HETATM    2  O2  UNL     1      14.052  -8.851   0.000  1.00  0.00           O  
+HETATM    3  O3  UNL     1      15.470  -8.847   0.000  1.00  0.00           O  
+HETATM    4  C1  UNL     1      14.746 -10.003   0.000  1.00  0.00           C  
+HETATM    5  C2  UNL     1      15.463 -10.412   0.000  1.00  0.00           C  
+HETATM    6  C3  UNL     1      14.761  -9.256   0.000  1.00  0.00           C  
+HETATM    7  C4  UNL     1      14.041 -10.412   0.000  1.00  0.00           C  
+HETATM    8  C5  UNL     1      15.463 -11.237   0.000  1.00  0.00           C  
+HETATM    9  C6  UNL     1      14.041 -11.237   0.000  1.00  0.00           C  
+HETATM   10  C7  UNL     1      14.746 -11.654   0.000  1.00  0.00           C  
+CONECT    1    5
+CONECT    2    6    6
+CONECT    3    6
+CONECT    4    5    5    6    7
+CONECT    5    8
+CONECT    7    9    9
+CONECT    8   10   10
+CONECT    9   10
+END

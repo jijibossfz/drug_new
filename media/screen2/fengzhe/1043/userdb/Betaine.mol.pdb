@@ -1,0 +1,14 @@
+COMPND    Betaine.mol
+HETATM    1  O1  UNL     1      -1.429  -0.468   0.000  1.00  0.00           O1-
+HETATM    2  C1  UNL     1      -0.715  -0.055   0.000  1.00  0.00           C  
+HETATM    3  O2  UNL     1      -0.715   0.770   0.000  1.00  0.00           O  
+HETATM    4  C2  UNL     1       0.000  -0.468   0.000  1.00  0.00           C  
+HETATM    5  N1  UNL     1       0.715  -0.055   0.000  1.00  0.00           N1+
+HETATM    6  C3  UNL     1       0.302   0.659   0.000  1.00  0.00           C  
+HETATM    7  C4  UNL     1       1.429   0.357   0.000  1.00  0.00           C  
+HETATM    8  C5  UNL     1       1.127  -0.770   0.000  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    3    3    4
+CONECT    4    5
+CONECT    5    6    7    8
+END

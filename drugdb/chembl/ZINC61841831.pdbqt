@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C2_2  and  N5_17 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C3_3  and  N1_10 
+ROOT
+ATOM      1  N1  <0> d           2.050   0.169   1.365  0.00  0.00    -0.249 N 
+ATOM      2  C8  <0> d           2.382   1.392   1.822  0.00  0.00     0.232 A 
+ATOM      3  N2  <0> d           3.675   1.533   1.716  0.00  0.00    -0.212 NA
+ATOM      4  C9  <0> d           4.212   0.419   1.194  0.00  0.00     0.251 A 
+ATOM      5  N3  <0> d           3.247  -0.448   0.969  0.00  0.00    -0.139 NA
+ATOM      6  C10 <0> d           5.604   0.207   0.931  0.00  0.00     0.142 C 
+ATOM      7  N4  <0> d           6.708   0.040   0.722  0.00  0.00    -0.188 NA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C3  <0> d           0.704  -0.406   1.301  0.00  0.00     0.181 C 
+BRANCH   8   9
+ATOM      9  C2  <0> d           0.024   0.032   0.002  0.00  0.00     0.209 C 
+ATOM     10  C1  <0> d          -1.350  -0.633  -0.104  0.00  0.00     0.042 C 
+BRANCH   9  11
+ATOM     11  N5  <0> d           0.851  -0.368  -1.144  0.00  0.00    -0.073 N 
+ATOM     12  H9  <0> d           0.962  -1.371  -1.144  0.00  0.00     0.274 HD
+ATOM     13  H10 <0> d           0.403  -0.079  -2.000  0.00  0.00     0.274 HD
+ATOM     14  H11 <0> d           1.757   0.070  -1.074  0.00  0.00     0.274 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+BRANCH   8  15
+ATOM     15  C4  <0> d          -0.105   0.073   2.478  0.00  0.00     0.011 A 
+ATOM     16  S1  <0> d          -0.672   1.724   2.855  0.00  0.00    -0.103 SA
+ATOM     17  C7  <0> d          -1.520   1.356   4.382  0.00  0.00     0.069 A 
+ATOM     18  C6  <0> d          -1.310   0.022   4.506  0.00  0.00     0.018 A 
+ATOM     19  C5  <0> d          -0.585  -0.635   3.530  0.00  0.00     0.036 A 
+ATOM     20 Br1  <0> d          -2.001  -0.924   5.990  0.00  0.00    -0.051 Br
+ENDBRANCH   8  15
+ENDBRANCH   1   8
+TORSDOF 4

@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:     188.1      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C6_7 
+REMARK    2  A    between atoms: C6_7  and  N1_9 
+REMARK    3  A    between atoms: N1_9  and  C8_10 
+REMARK    4  A    between atoms: C8_10  and  C13_15 
+ROOT
+ATOM      1  N1  <0> d         -36.522  13.477  49.811  0.00  0.00    -0.046 N 
+ATOM      2  H10 <0> d         -36.002  13.491  48.946  0.00  0.00     0.279 HD
+ATOM      3  H19 <0> d         -35.956  13.062  50.536  0.00  0.00     0.279 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  <0> d         -36.875  14.851  50.191  0.00  0.00     0.240 C 
+ATOM      5  C7  <0> d         -35.949  15.833  49.471  0.00  0.00     0.047 C 
+BRANCH   4   6
+ATOM      6  C5  <0> d         -38.304  15.129  49.800  0.00  0.00     0.083 A 
+ATOM      7  C4  <0> d         -39.199  15.821  50.528  0.00  0.00     0.037 A 
+ATOM      8  C3  <0> d         -40.403  15.838  49.789  0.00  0.00     0.035 A 
+ATOM      9  C2  <0> d         -40.173  15.156  48.652  0.00  0.00     0.049 A 
+ATOM     10  C1  <0> d         -41.173  14.914  47.551  0.00  0.00     0.076 C 
+ATOM     11  O1  <0> d         -38.901  14.725  48.667  0.00  0.00    -0.318 OA
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  12
+ATOM     12  C8  <0> d         -37.748  12.687  49.634  0.00  0.00     0.213 C 
+ATOM     13  C12 <0> d         -38.925  13.368  50.364  0.00  0.00     0.051 C 
+ATOM     14  C11 <0> d         -39.624  14.200  49.260  0.00  0.00     0.003 C 
+ATOM     15  C10 <0> d         -39.521  13.279  48.020  0.00  0.00     0.003 C 
+ATOM     16  C9  <0> d         -38.127  12.631  48.145  0.00  0.00     0.051 C 
+BRANCH  12  17
+ATOM     17  C13 <0> d         -37.546  11.293  50.170  0.00  0.00     0.210 C 
+ATOM     18  O2  <0> d         -38.507  10.631  50.522  0.00  0.00    -0.646 OA
+ATOM     19  O3  <0> d         -36.422  10.828  50.251  0.00  0.00    -0.646 OA
+ENDBRANCH  12  17
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL

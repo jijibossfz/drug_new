@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N2_7 
+REMARK       I    between atoms: N2_7  and  C6_8 
+REMARK    2  A    between atoms: C6_8  and  C7_10 
+REMARK    3  A    between atoms: C11_14  and  N3_16 
+ROOT
+ATOM      1  C7  <0> d          -0.046   5.566  -0.181  0.00  0.00     0.034 A 
+ATOM      2  C8  <0> d           1.152   6.283  -0.183  0.00  0.00     0.018 A 
+ATOM      3  C9  <0> d           1.128   7.658  -0.285  0.00  0.00     0.022 A 
+ATOM      4  C10 <0> d          -0.080   8.328  -0.374  0.00  0.00     0.044 A 
+ATOM      5  C11 <0> d          -1.272   7.623  -0.367  0.00  0.00     0.121 A 
+ATOM      6  C12 <0> d          -1.262   6.247  -0.271  0.00  0.00     0.054 A 
+ATOM      7 Br1  <0> d          -0.103  10.214  -0.507  0.00  0.00    -0.048 Br
+ENDROOT
+BRANCH   1   8
+ATOM      8  C6  <0> d          -0.028   4.092  -0.077  0.00  0.00     0.256 C 
+ATOM      9  N2  <0> d           1.146   3.437   0.009  0.00  0.00    -0.322 N 
+ATOM     10  H5  <0> d           1.976   3.935   0.073  0.00  0.00     0.169 HD
+ATOM     11  O1  <0> d          -1.073   3.470  -0.071  0.00  0.00    -0.267 OA
+BRANCH   9  12
+ATOM     12  C3  <0> d           1.169   2.038   0.008  0.00  0.00     0.052 A 
+ATOM     13  C2  <0> d           0.148   1.315   0.620  0.00  0.00     0.032 A 
+ATOM     14  C1  <0> d           0.215  -0.069   0.592  0.00  0.00     0.021 A 
+ATOM     15  C5  <0> d           1.283  -0.681  -0.036  0.00  0.00     0.116 A 
+ATOM     16  N1  <0> d           2.234   0.033  -0.606  0.00  0.00    -0.271 NA
+ATOM     17  C4  <0> d           2.210   1.351  -0.603  0.00  0.00     0.145 A 
+ENDBRANCH   9  12
+ENDBRANCH   1   8
+BRANCH   5  18
+ATOM     18  N3  <0> d          -2.559   8.347  -0.464  0.00  0.00    -0.114 N 
+ATOM     19  O2  <0> d          -3.608   7.728  -0.458  0.00  0.00    -0.532 OA
+ATOM     20  O3  <0> d          -2.570   9.562  -0.548  0.00  0.00    -0.532 OA
+ENDBRANCH   5  18
+TORSDOF 3

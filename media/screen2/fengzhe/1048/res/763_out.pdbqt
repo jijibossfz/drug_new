@@ -1,0 +1,42 @@
+MODEL 1
+REMARK VINA RESULT:      12.4      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_6 
+REMARK    2  A    between atoms: N1_2  and  N2_3 
+REMARK    3  A    between atoms: N1_2  and  C4_7 
+REMARK    4  A    between atoms: N2_3  and  C2_5 
+REMARK    5  A    between atoms: C2_5  and  C4_7 
+REMARK    6  A    between atoms: C2_5  and  C3_6 
+ROOT
+HETATM    1  S1  UNL     1     -39.408  15.746  48.745  1.00  0.00    -0.141 SA
+HETATM    2  N1  UNL     1     -39.904  15.804  50.127  1.00  0.00     0.000 N 
+HETATM    3  N2  UNL     1     -40.819  15.802  49.156  1.00  0.00     0.000 N 
+HETATM    4  C1  UNL     1     -40.009  15.782  49.310  1.00  0.00     0.049 A 
+HETATM    5  C2  UNL     1     -40.650  15.838  50.479  1.00  0.00     0.022 A 
+HETATM    6  C3  UNL     1     -39.181  15.794  50.524  1.00  0.00     0.058 A 
+HETATM    7  C4  UNL     1     -41.215  15.836  49.878  1.00  0.00     0.013 A 
+ENDROOT
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      13.9      0.974      1.409
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_1  and  C3_6 
+REMARK    2  A    between atoms: N1_2  and  N2_3 
+REMARK    3  A    between atoms: N1_2  and  C4_7 
+REMARK    4  A    between atoms: N2_3  and  C2_5 
+REMARK    5  A    between atoms: C2_5  and  C4_7 
+REMARK    6  A    between atoms: C2_5  and  C3_6 
+ROOT
+HETATM    1  S1  UNL     1     -39.553  15.836  50.269  1.00  0.00    -0.141 SA
+HETATM    2  N1  UNL     1     -40.935  15.684  49.793  1.00  0.00     0.000 N 
+HETATM    3  N2  UNL     1     -39.972  15.672  48.870  1.00  0.00     0.000 N 
+HETATM    4  C1  UNL     1     -40.120  15.736  49.678  1.00  0.00     0.049 A 
+HETATM    5  C2  UNL     1     -41.291  15.587  49.054  1.00  0.00     0.022 A 
+HETATM    6  C3  UNL     1     -41.327  15.722  50.518  1.00  0.00     0.058 A 
+HETATM    7  C4  UNL     1     -40.695  15.580  48.484  1.00  0.00     0.013 A 
+ENDROOT
+TORSDOF 6
+ENDMDL

@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C2_2  and  N1_5 
+REMARK    3  A    between atoms: C3_3  and  O1_4 
+REMARK       I    between atoms: N1_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_8 
+ROOT
+ATOM      1  C5  <0> d           2.710  -1.163  -2.381  0.00  0.00     0.117 A 
+ATOM      2  C6  <0> d           4.093  -1.379  -2.363  0.00  0.00     0.142 A 
+ATOM      3  N2  <0> d           4.669  -1.899  -3.432  0.00  0.00    -0.235 NA
+ATOM      4  C7  <0> d           3.973  -2.217  -4.507  0.00  0.00     0.179 A 
+ATOM      5  N3  <0> d           2.625  -2.043  -4.615  0.00  0.00    -0.266 N 
+ATOM      6  C8  <0> d           1.976  -1.513  -3.535  0.00  0.00     0.270 A 
+ATOM      7  O3  <0> d           0.770  -1.338  -3.571  0.00  0.00    -0.266 OA
+ATOM      8  C9  <0> d           2.044  -2.424  -5.804  0.00  0.00     0.110 A 
+ATOM      9  C10 <0> d           2.828  -2.931  -6.756  0.00  0.00     0.071 A 
+ATOM     10  S1  <0> d           4.431  -2.879  -5.979  0.00  0.00    -0.062 SA
+ENDROOT
+BRANCH   1  11
+ATOM     11  C4  <0> d           2.031  -0.587  -1.215  0.00  0.00     0.259 C 
+ATOM     12  N1  <0> d           0.687  -0.492  -1.196  0.00  0.00    -0.350 N 
+ATOM     13  H8  <0> d           0.172  -0.735  -1.982  0.00  0.00     0.163 HD
+ATOM     14  O2  <0> d           2.682  -0.195  -0.265  0.00  0.00    -0.267 OA
+BRANCH  12  15
+ATOM     15  C2  <0> d           0.002  -0.022   0.011  0.00  0.00     0.104 C 
+ATOM     16  C1  <0> d          -0.036   1.507   0.012  0.00  0.00     0.034 C 
+BRANCH  15  17
+ATOM     17  C3  <0> d          -1.427  -0.569   0.032  0.00  0.00     0.189 C 
+BRANCH  17  18
+ATOM     18  O1  <0> d          -2.164  -0.016  -1.060  0.00  0.00    -0.399 OA
+ATOM     19  H7  <0> d          -3.081  -0.320  -1.109  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH   1  11
+TORSDOF 4

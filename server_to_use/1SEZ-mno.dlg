@@ -1,0 +1,46 @@
+          AutoDock 4.2 Release 4.2.6   
+         (C) 1989-2012 The Scripps Research Institute
+        AutoDock comes with ABSOLUTELY NO WARRANTY.
+        AutoDock is free software, and you are welcome
+        to redistribute it under certain conditions;
+        for details type 'autodock4 -C'
+
+                     main.cc  $Revision: 1.213 $
+
+                   Compiled on Dec 20 2015 at 11:11:19
+
+
+This file was created at:			9:17 57" p.m., 11/06/2019
+                   on host:		"jianping"
+Current Working Directory = "/home/jianping"
+
+      ________________________________________________________________
+
+                   SETTING UP DEFAULT PARAMETER LIBRARY
+      ________________________________________________________________
+
+
+Random number generator was seeded with values 27937, 1573046277.
+Docking parameter file (DPF) used for this docking:		1SEZ-mno.dpf
+DPF> autodock_parameter_version 4.2       # used by autodock to validate parameter set
+
+	Autodock parameter version 4.2.
+DPF> outlev 1                             # diagnostic output level
+
+Output Level = 1  ADT-COMPATIBLE OUTPUT DURING DOCKING.
+DPF> intelec                              # calculate internal electrostatics
+
+Electrostatic energies will be calculated for all non-bonds between moving atoms.
+DPF> seed pid time                        # seeds for random generator
+
+Random number generator was seeded with values 27937, 1573046277.
+DPF> ligand_types A C Cl NA F OA N Br HD  # atoms types in ligand
+
+DPF> fld 1SEZ_nolig.maps.fld              # grid_data_file
+
+Real= 0.24,  CPU= 0.10,  System= 0.01
+autodock4: I'm sorry; I can't find or open "1SEZ_nolig.maps.fld"
+autodock4: FATAL ERROR: autodock4: I'm sorry; I can't find or open "1SEZ_nolig.maps.fld"
+
+autodock4: Unsuccessful Completion.
+
